@@ -1,14 +1,29 @@
 <!doctype html>
 <title>weewee wahwah</title>
-<html>
+
 <script>
 var windowsxp = new Audio();
 windowsxp.src = Windows_XP_Startup_Sound_Bass_Boosted.mp3;
 </script>
 
-<head>
-  <link rel="stylesheet" href="style.css">
-</head>
+<style>
+  .wrapper {
+    display: flex;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+  .column > div {
+    font-size: 4vh;
+    color: white;
+    background: royalblue;
+    margin: .1em;
+    padding: .3em 1em;
+    border-radius: 3px;
+    flex: 1;
+  }
+  </style>
 
 <div class="wrapper">
   <div class="column">
@@ -114,4 +129,3 @@ windowsxp.src = Windows_XP_Startup_Sound_Bass_Boosted.mp3;
     <div>12</div>
   </div>
 </div>
-</html>
