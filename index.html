@@ -21,13 +21,14 @@
 }
 </style>
 
-<audio id="myAudio">
-  <source src="Windows_XP_Startup_Sound_Bass_Boosted.mp3" type="audio/mpeg">
-</audio>
+<script>
+  var windowsxp = new Audio();
+  windowsxp.src="Windows_XP_Startup_Sound_Bass_Boosted.mp3";
+</script>
 
 <div class="wrapper">
   <div class="column">
-    <div onclick="playAudio()">1</a></div>
+    <div onmousedown="windowsxp.play()">1</div>
   </div>
   <div class="column">
     <div>1</div>
