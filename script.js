@@ -25,8 +25,7 @@ const tracks = [
   new Audio('audio/slide6.mp3'),
   new Audio('audio/slide7.mp3'),
   new Audio('audio/slide8.mp3'),
-  new Audio('audio/slide9.mp3'),
-  new Audio('audio/slide10.mp3')
+  new Audio('audio/slide9.mp3')
 ];
 tracks.forEach(t => {
   t.loop   = true;  // keep playing while the slide is up
